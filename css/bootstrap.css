@@ -939,7 +939,7 @@ img {
 .thumbnail a > img,
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
-  display: block;
+  display: contents;
   max-width: 100%;
   height: auto;
 }
@@ -3884,8 +3884,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-collapse {
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 5px;
+  padding-left: 5px;
   overflow-x: visible;
   -webkit-overflow-scrolling: touch;
   border-top: 1px solid transparent;
@@ -6030,8 +6030,13 @@ button.close {
   padding-bottom: 20px;
   color: #fff;
   text-align: center;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+  text-shadow: 2px 2px black;
 }
+.carousel-caption p {
+  font-size: 15vw;
+  vertical-align: bottom;
+}
+
 .carousel-caption .btn {
   text-shadow: none;
 }
