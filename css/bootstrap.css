@@ -6021,26 +6021,38 @@ button.close {
   background-color: #fff;
 }
 .carousel-caption {
-  position: absolute;
+  position: fixed;
   right: 15%;
-  bottom: 20px;
+  bottom: 10px;
   left: 15%;
   z-index: 10;
   padding-top: 20px;
   padding-bottom: 20px;
   color: #fff;
-  text-align: center;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  text-shadow: 2px 2px black;
 }
 .carousel-caption p {
   font-size: 15vw;
   vertical-align: bottom;
+  text-shadow: 2px 2px black;
 }
 
 .carousel-caption .btn {
   text-shadow: none;
 }
+
+.carousel-content {
+    color:black;
+    display:flex;
+    align-items:center;
+}
+
+#text-carousel {
+  width: 100%;
+  height: auto;
+  padding: 50px;
+}
+
 @media screen and (min-width: 768px) {
   .carousel-control .glyphicon-chevron-left,
   .carousel-control .glyphicon-chevron-right,
