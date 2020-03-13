@@ -17,6 +17,11 @@
   <link href="css/prettyPhoto.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
   <link rel="stylesheet" href="css/jerome.css">
+  <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan+2|Cabin|PT+Sans|Roboto+Condensed|Rubik&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Righteous|Viga&display=swap" rel="stylesheet">
+
   <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 </head>
 
@@ -33,7 +38,8 @@
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="menu">
-          <a href="index.html"><img src="images/small_logo.png" height="50" style="vertical-align: bottom;"></a>
+          <a href="index.html"><img src="images/small_logo.png" height="40"
+              style="vertical-align: bottom; margin: 10px;"></a>
 
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#home">Home</a></li>
@@ -48,11 +54,10 @@
     </div>
   </nav>
 
-  <section id="home">
+  <!-- <section id="home">
     <div class="slider">
       <div id="about-slider">
         <div id="carousel-slider" class="carousel slide" data-ride="carousel">
-          <!-- Indicators -->
           <ol class="carousel-indicators visible-xs">
             <li data-target="#carousel-slider" data-slide-to="0" class="active"></li>
             <li data-target="#carousel-slider" data-slide-to="1"></li>
@@ -94,12 +99,26 @@
             <i class="fa fa-angle-right"></i>
           </a>
         </div>
-        <!--/#carousel-slider-->
       </div>
-      <!--/#about-slider-->
     </div>
-  </section>
+  </section> -->
+  <div id="home">
+    <div class="container-fluid">
 
+      <div class="row">
+        <div class="jumbotron text-right">
+          <img src="images/small_logo.png" alt="" style="padding: 30px; height: 140px;">
+          <h3 class="bigfont">We at Syslog Solution pride ourselves in staying abreast with the latest technologies.
+            Our DevOps approach to implementation deploys highly available, cost effective, secure and efficient systems
+            to meet the business needs and budget of our clients.</h3>
+
+          <p style="text-align: center; font-size: large;"><a href="#about" class="btn btn-default btn-lg"
+              role="button">Learn
+              more....</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
   <!--our services section-->
   <section id="services">
     <div class="container">
@@ -111,159 +130,152 @@
         </div>
       </div>
     </div>
-    <div class="container">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-sm-4">
+    <div class="container-fluid">
+      <div class="">
+        <ul class="flex-container wrap">
+          <li class="flex-item">
             <div class="flip-card">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
-                  <img src="images/cloud computing.jpg" alt="Avatar" style="width:300px;height:300px;">
+                  <img src="images/cloud-computing-1024x683.jpg" alt="Avatar">
                   <div class="text-block">
                     <h3>Cloud Architecture & Deployment</h3>
                   </div>
                 </div>
                 <div class="flip-card-back">
-                  <p class="smallfont">We provide the following services:</p>
+                  <p class="smallfont" style="margin: 10px;">We provide the following
+                    services:</p>
                   <ul class="smallfont" style="list-style-type: square;">
                     <li>Software as a Service (SaaS) involves software hosted and maintained on internet. With SaaS,
-                      clients do not have to install the software on-premise.</li>
+                      clients do not have to install the software on-premise.</li><br>
                     <li>Platform as a Service (PaaS) provides clients with cloud-based application platforms and
-                      databases, equivalent to middleware services.</li>
+                      databases, equivalent to middleware services.</li><br>
                     <li>Infrastructure as a Service (IaaS) provides for infrastructure and hardware such as servers,
                       networks, storage devices, etc. running in the cloud.</li>
                   </ul>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-sm-4">
+          </li>
+          <li class="flex-item">
             <div class="flip-card">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
-                  <img src="images/cloud computing.jpg" alt="Avatar" style="width:300px;height:300px;">
+                  <img src="images/app dev.jpeg" alt="Avatar">
                   <div class="text-block">
-                    <h3>Cloud Architecture & Deployment</h3>
+                    <h3>Application Development & Maintenance</h3>
                   </div>
                 </div>
-                <div class="flip-card-back">
-                  <p class="smallfont">We provide the following services:</p>
-                  <ul class="smallfont" style="list-style-type: square;">
-                    <li>Software as a Service (SaaS) involves software hosted and maintained on internet. With SaaS,
-                      clients do not have to install the software on-premise.</li>
-                    <li>Platform as a Service (PaaS) provides clients with cloud-based application platforms and
-                      databases, equivalent to middleware services.</li>
-                    <li>Infrastructure as a Service (IaaS) provides for infrastructure and hardware such as servers,
-                      networks, storage devices, etc. running in the cloud.</li>
-                  </ul>
+                <div class="flip-card-back" style="background-color:maroon;">
+                  <p class="smallfont">
+                    We offer high quality services at low cost, faster-time-to-market, and with consistent control - all
+                    from one-stop IT solutions partner. </p>
+                  <p class="smallfont">As a leading IT services provider, we efficiently analyze,
+                    design, implement and integrate software applications in our secure and robust infrastructure. With
+                    right-sourcing combination of our onsite and off-shore development centers, we present a unique way
+                    of providing very cost-effective application maintenance. You will feel confident by placing your
+                    services in our experienced personnel and can remain focused on enhancing your core businesses.</p>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-sm-4">
+          </li>
+          <li class="flex-item">
             <div class="flip-card">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
-                  <img src="images/cloud computing.jpg" alt="Avatar" style="width:300px;height:300px;">
+                  <img src="images/consultancy.jfif" alt="Avatar">
                   <div class="text-block">
-                    <h3>Cloud Architecture & Deployment</h3>
+                    <h3>Information Technology Advisory & consultancy</h3>
                   </div>
                 </div>
-                <div class="flip-card-back">
-                  <p class="smallfont">We provide the following services:</p>
-                  <ul class="smallfont" style="list-style-type: square;">
-                    <li>Software as a Service (SaaS) involves software hosted and maintained on internet. With SaaS,
-                      clients do not have to install the software on-premise.</li>
-                    <li>Platform as a Service (PaaS) provides clients with cloud-based application platforms and
-                      databases, equivalent to middleware services.</li>
-                    <li>Infrastructure as a Service (IaaS) provides for infrastructure and hardware such as servers,
-                      networks, storage devices, etc. running in the cloud.</li>
-                  </ul>
+                <div class="flip-card-back" style="background-color:#42431F;">
+                  <p class="smallfont">No business is without its set of problems, logistic challenges, and management
+                    puzzles. We help businesses overcome these challenges through targeted software solutions so that
+                    they can do what they do best and do it with considerable less effort.</p>
+                  <p class="smallfont">We have a decade long experience in providing software solutions to complex
+                    business management and business workflow
+                    process problems. We have worked with industries of all sizes and scales, equipping them with
+                    scalable and flexible
+                    solutions that adapt to dynamically changing business processes and requirements</p>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-        <br>
-        <div class="row">
-          <div class="col-sm-4">
+          </li>
+          <li class="flex-item">
             <div class="flip-card">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
-                  <img src="images/cloud computing.jpg" alt="Avatar" style="width:300px;height:300px;">
+                  <img src="images/support.jpg" alt="Avatar">
                   <div class="text-block">
-                    <h3>Cloud Architecture & Deployment</h3>
+                    <h3>Enterprise Application Maintenance & Support</h3>
                   </div>
                 </div>
-                <div class="flip-card-back">
-                  <p class="smallfont">We provide the following services:</p>
-                  <ul class="smallfont" style="list-style-type: square;">
-                    <li>Software as a Service (SaaS) involves software hosted and maintained on internet. With SaaS,
-                      clients do not have to install the software on-premise.</li>
-                    <li>Platform as a Service (PaaS) provides clients with cloud-based application platforms and
-                      databases, equivalent to middleware services.</li>
-                    <li>Infrastructure as a Service (IaaS) provides for infrastructure and hardware such as servers,
-                      networks, storage devices, etc. running in the cloud.</li>
-                  </ul>
+                <div class="flip-card-back" style="background-color:#42431F;">
+                  <p class="smallfont">In today’s environment, businesses are highly dependent on IT systems for day to
+                    day operations. As your business evolves, applications need to change to suit new business
+                    scenarios. Syslog Solution is committed to provide high level support for your
+                    business-critical applications and ensure smooth operations.</p>
+                  <p class="smallfont">We have proven the experience of maintaining enterprise software systems with SLA
+                    driven support process. Our support practice will ensure that it reduces system downtime and help
+                    you focus on strategic initiatives by minimizing the time spent on routine maintenance activities.
+                  </p>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-sm-4">
+          </li>
+          <li class="flex-item">
             <div class="flip-card">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
-                  <img src="images/cloud computing.jpg" alt="Avatar" style="width:300px;height:300px;">
+                  <img src="images/it-security.jpg" alt="Avatar">
                   <div class="text-block">
-                    <h3>Cloud Architecture & Deployment</h3>
+                    <h3>Cyber & Biometric Security Solutions</h3>
                   </div>
                 </div>
                 <div class="flip-card-back">
-                  <p class="smallfont">We provide the following services:</p>
-                  <ul class="smallfont" style="list-style-type: square;">
-                    <li>Software as a Service (SaaS) involves software hosted and maintained on internet. With SaaS,
-                      clients do not have to install the software on-premise.</li>
-                    <li>Platform as a Service (PaaS) provides clients with cloud-based application platforms and
-                      databases, equivalent to middleware services.</li>
-                    <li>Infrastructure as a Service (IaaS) provides for infrastructure and hardware such as servers,
-                      networks, storage devices, etc. running in the cloud.</li>
-                  </ul>
+                  <p class="smallfont">Technology today is centered on more — more users, devices and complexity. With
+                    so much to keep track of, companies are scrambling to create broad coverage that’s sophisticated
+                    enough to fend off increasing cyberattacks.
+                  </p>
+                  <p class="smallfont">Syslog’s security services help you navigate and manage today’s complicated
+                    environment. We’ll work with you to develop
+                    a plan that’s customized and complete — taking into account compliance requirements and future
+                    growth.</p>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-sm-4">
+          </li>
+          <li class="flex-item">
             <div class="flip-card">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
-                  <img src="images/cloud computing.jpg" alt="Avatar" style="width:300px;height:300px;">
+                  <img src="images/datacenter.jpg" alt="Avatar">
                   <div class="text-block">
-                    <h3>Cloud Architecture & Deployment</h3>
+                    <h3>Data Center Management & Automation</h3>
                   </div>
                 </div>
-                <div class="flip-card-back">
-                  <p class="smallfont">We provide the following services:</p>
-                  <ul class="smallfont" style="list-style-type: square;">
-                    <li>Software as a Service (SaaS) involves software hosted and maintained on internet. With SaaS,
-                      clients do not have to install the software on-premise.</li>
-                    <li>Platform as a Service (PaaS) provides clients with cloud-based application platforms and
-                      databases, equivalent to middleware services.</li>
-                    <li>Infrastructure as a Service (IaaS) provides for infrastructure and hardware such as servers,
-                      networks, storage devices, etc. running in the cloud.</li>
-                  </ul>
+                <div class="flip-card-back" style="background-color:maroon;">
+                  <p class="smallfont">The successful management of modern data centers is very important yet very
+                    complex. That's why automation in data centers is of great importance and an essential component on
+                    the way to a private and/ or hybrid cloud.</p>
+                  <p class="smallfont">Our DevOps engineers can safely and efficiently combined recurring tasks in
+                    process sequences thereby ruling out human errors while enforcing security standards
+                    and compliance requirements. Our approach to DevOps is designed to be accommodating for businesses
+                    regardless of their maturity in automated operations.</p>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
+          </li>
+        </ul>
       </div>
     </div>
+
     </div>
   </section>
 
   <!--about us section-->
   <section id="about">
-    <div class="container-fluid">
+    <div class="container">
       <div class="center">
         <div class="col-md-6 col-md-offset-3">
           <h2><strong>About Us</strong></h2>
@@ -272,7 +284,7 @@
       </div>
       <div class="row">
         <div class="col-sm-6 wow fadeInRight">
-          <img src="images/background.jpg" class="img-responsive" />
+          <img src="images/background.jpg" class="img-responsive" height="400px" />
 
         </div>
         <!--/.col-sm-6-->
@@ -311,7 +323,7 @@
                   </div>
                 </div>
               </div>
-              <div class="panel panel-default">
+              <div class=" panel-default">
                 <div class="panel-heading">
                   <h3 class="panel-title">
                     <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseTwo1"
@@ -330,7 +342,7 @@
                 </div>
               </div>
 
-              <div class="panel panel-default">
+              <div class=" panel-default">
                 <div class="panel-heading">
                   <h3 class="panel-title">
                     <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseFour1"
@@ -355,7 +367,7 @@
                 </div>
               </div>
 
-              <div class="panel panel-default">
+              <div class=" panel-default">
                 <div class="panel-heading">
                   <h3 class="panel-title">
                     <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseThree1"

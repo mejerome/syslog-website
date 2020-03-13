@@ -1392,6 +1392,7 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  border: 1px gray;
 }
 @media (min-width: 768px) {
   .container {
@@ -2835,7 +2836,7 @@ fieldset[disabled] .btn {
 }
 .btn-default {
   color: #333;
-  background-color: #fff;
+  background-color: gray;
   border-color: #ccc;
 }
 .btn-default:hover,
